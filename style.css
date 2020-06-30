@@ -1,0 +1,59 @@
+h1 {
+
+    font-family: fantasy ;
+    font-size: 2em;
+    border-bottom: 2px solid pink;
+    border-right: pink 2px solid;
+    text-align: center;
+    width: 400px;
+    
+}
+p{
+    color:rgb(255, 100, 50);
+    text-align: center;
+    border:5px solid blue;
+    cursor: pointer;
+    font-style: italic;
+
+}
+li{
+    list-style: none;
+}
+.watched{
+    background-color: red;
+    width: 60%;
+
+}
+#navbar li{
+    display: inline-block;
+    border: 2px dotted darkviolet;
+
+}
+fieldset{
+    width: 45%;
+}
+fieldset input{
+    margin-bottom: 5px;
+    
+
+}
+.boxmodel p{
+    border: 5px solid blue;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0px 10px;
+}
+img{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 4s;
+}
+img:hover{
+    transform: scale(1.2);
+}
